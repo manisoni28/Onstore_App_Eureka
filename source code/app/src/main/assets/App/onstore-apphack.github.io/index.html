@@ -1,0 +1,402 @@
+<!--
+Modfied and reused for apphack Hackathon - 
+Author: Team-Aryabhata
+Website: onstore-apphack.github.io
+Email: info.aryabhata@gmail.com
+Designed From W3layout
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<!-- Mirrored from onstore-apphack.github.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Apr 2016 06:29:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<title>OnStore | Home</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<meta name="keywords" content="OnStore, Aryabhata, Sainath Varanasi, Retail, Mobile Application, Innovation, Design " />
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/Chart.js"></script>
+
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style_extra.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<script src="js/wow.min.js"></script>
+<link href="css/animate.css" rel='stylesheet' type='text/css' />
+
+
+<script>
+	new WOW().init();
+</script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	});
+});
+</script>
+
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <script type="text/javascript" src="js/move-top.js"></script>
+
+
+</head>
+<body>
+<!-- Header Part Starts Here -->
+<div class="header" id="home">
+	<div class="container">
+		<div class="col-md-8 header-matter">
+			
+			<div class="logo wow bounceInLeft animated">
+				<h2>| OnStore |</h2>
+				&nbsp
+				<h2 class="wow bounceIn animated">An amazing way to Shop - <a id="fullscreeniframe" class="fa fa-play-circle fa-1x"></a></h2>
+				<br/>
+				<br>
+				<p class="wow bounceIn animated">Experience a whole new shopping experience with OnStore. 
+				<br>We will make your shopping 
+				experience a memorable one without those long unending queues and without having to worry about whether you have 
+				forgotten something and so on. 
+				</p>
+				
+				
+							<ul class="social-icons icon-circle icon-zoom list-unstyled list-inline">
+								<a href="https://play.google.com/store/apps/details?id=com.aryabhata.onstore" target="_blank" class="fa fa-android fa-4x"></a>	 	  					   	
+								&nbsp
+								<a href="https://twitter.com/aryabhatapphack" class="fa fa-twitter fa-4x" target="_blank"></a>
+								&nbsp
+								<a href="https://github.com/OnStore-Apphack" class="fa fa-github fa-4x"target="_blank"></a>
+								&nbsp
+								<a href="https://www.youtube.com/playlist?list=PLNvWBXTQfWPMQZxRwMlF90unHvcSJk2OJ" class="fa fa-youtube-square fa-4x" target="_blank"></a>
+								&nbsp
+								<a href="https://aryabhatas.wordpress.com/" target="_blank" class="fa fa-wordpress fa-4x"></a>
+							</ul>
+					<br/>
+					<h3>Built By : Team-Aryabhata</h3>
+					<p>"Innovate : Recreate : Rejuvenate"</p> 
+					<a class="btn btn-1 btn-1b button4" href="demo/index.html" target="_blank" >DEMO</a>
+					<a class="btn btn-1 btn-1b button5" href="demo/index.html" target="_blank" >></a>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+		<div class="col-md-4 iphone wow bounceInRight animated" >
+			<img src="images/mock/welcome.png"/>
+		</div>	
+	</div>
+</div>
+<!-- Header Part ENds Here -->
+<div class="f1">
+	<iframe 
+		frameborder="0" 
+		webkitallowfullscreen="" 
+		mozallowfullscreen="" 
+		allowfullscreen="" 
+		width="100%" 
+		height="650px" 
+		src="https://prezi.com/embed/nhybjsxlakuj/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0#">
+	</iframe>	
+</div>
+
+<script>
+    (function(window, document){
+        var $ = function(selector,context){return(context||document).querySelector(selector)};
+
+        var iframe = $("iframe"),
+            domPrefixes = 'Webkit Moz O ms Khtml'.split(' ');
+
+        var fullscreen = function(elem) {
+            var prefix;
+            // Mozilla and webkit intialise fullscreen slightly differently
+            for ( var i = -1, len = domPrefixes.length; ++i < len; ) {
+              prefix = domPrefixes[i].toLowerCase();
+
+              if ( elem[prefix + 'EnterFullScreen'] ) {
+                // Webkit uses EnterFullScreen for video
+                return prefix + 'EnterFullScreen';
+                break;
+              } else if( elem[prefix + 'RequestFullScreen'] ) {
+                // Mozilla uses RequestFullScreen for all elements and webkit uses it for non video elements
+                return prefix + 'RequestFullScreen';
+                break;
+              }
+            }
+
+            return false;
+        };              
+        // Webkit uses "requestFullScreen" for non video elements
+        var fullscreenother = fullscreen(document.createElement("iframe"));
+
+        if(!fullscreen) {
+            alert("Fullscreen won't work, please make sure you're using a browser that supports it and you have enabled the feature");
+            return;
+        }
+
+        $("#fullscreeniframe").addEventListener("click", function(){
+            // iframe fullscreen and non video elements in webkit use request over enter
+            iframe[fullscreenother]();
+        }, false);
+    })(this, this.document);
+</script>
+		
+<!--- Usage part Starts Here -->
+<div class="usage wow fadeInUp animated">
+	<div class="container">
+		<div class="usage-top wow bounceIn animated">
+			<p>Experience a whole new shopping experience. Now forget about the long unending queues and other inconveniences with the frugal and innovative solutions provided by the OnStore application. </p>
+			<div class="clearfix"></div>
+			<div class="first-img">
+				<img src="images/first-image.jpg" alt="">
+			</div>
+			<div class="second-img">
+				<img src="images/second-image.jpg" alt="">
+			</div>
+			<div class="third-img">
+				<img src="images/third-image.jpg" alt="">
+			</div>
+			
+		</div>
+	</div>
+</div>
+<!--- Usage part Ends Here -->
+<!-- Features Part Starts here -->
+<div class="features wow fadeInUp animated" id="about">
+	<div class="container">
+		<div class="col-md-4 feature-data">
+			<div class="feat-da-grid  wow bounceIn animated">
+				<h4>FLAT UI</h4>
+				<p>"FLAT-FAST-FLEXIBLE"</p>
+				<p>A flat user interface that would make navigation through the application easier and fun.</p>
+			</div>
+			<div class="feat-da-grid  wow bounceIn animated">
+				<h4>SMART BILLING</h4>
+				<p>"FAST & SMART BILLING"</p>
+				<p>A smart and self usable billing system that uses product identification technology to make billing hassle free.</p>
+			</div>
+			<div class="feat-da-grid  wow bounceIn animated">
+				<h4>FAVOURITES ASSISTANT</h4>
+				<p>"YOUR PREFERENCE - OUR SUGGESTION"</p>
+				<p>A favourites assistant that would uses a preference recognizer engine to maintain a favourites list.</p>
+			</div>
+		</div>
+		<div class="col-md-4 feature-img wow bounceIn animated">
+			<img src="images/featu-image.png" alt="" />
+		</div>
+		<div class="col-md-4 feature-data d_2">
+			<div class="feat-da-grid  wow bounceIn animated">
+				<h4>TO BUY LIST</h4>
+				<p>"ANY TIME - ANY PLACE UPDATION"</p>
+				<p>A feature that would come in handy if you have left out anything from your list to shop.</p>
+			</div>
+			<div class="feat-da-grid  wow bounceIn animated">
+				<h4>SHOPPING CART & CHECKOUT</h4>
+				<p>"SMART - STYLISH - SAFE"</p>
+				<p> All new shopping cart design and experience that is smart, stylish and safe.</p>
+			</div>
+			<div class="feat-da-grid  wow bounceIn animated">
+				<h4>FEEDBACK ENGINE</h4>
+				<p>"YOUR VALUABLE SUGGESTIONS"</p>
+				<p> Your valuable suggestions are tracked by the retailer using the feedback engine.</p>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+<!-- Features Part Ends here -->
+<!-- Features in Detail Part Starts Here -->
+
+
+<div class="package wow fadeInUp animated">
+	<div class="content">
+		<div class="container">
+			<div class="features-section wow fadeInUp animated">
+				<div class="feature-header">
+					<h2><span class="ia">Feature</span> <span class="ib">Set</span> <span class="ic">Of</span> <span class="id">OnStore</span> <span class="ie">Application</span> </h2>
+					<p> Onstore includes a lot of interesting features that would take your shopping experience to a whole new level. So Make your shopping simple and convenient.</p>
+				</div>
+					<div class="features-grids wow fadeInUp animated">
+						<div class="feature-grid1 wow bounceIn animated">
+						<div class="col-md-6 feature1-grid">
+							<img src="images/mock/flat.png">
+						</div>
+						<div class="col-md-6 feature2-grid">
+							<h3>ANDROID <span>MATERIAL DESIGN</span></h3>
+							<p>A flat user interface that contains a vivid collection of elements that would make your app navigation simple and fast. As the saying goes efficiency and simplicity goes hand in hand.</p>
+							<div class="buttons1">
+							<a class="btn btn-1 btn-1c button2" href="demo/index.html" target="_blank">EXPLORE</a>
+							<a class="btn btn-1 btn-1c button3" href="demo/index.html"target="_blank" >></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						</div>
+															
+						<div class="feature-grid2 wow bounceIn animated">
+						<div class="col-md-6 feature12-grid">
+							<h3><span>BILLING &</span> CHECKOUT</h3>
+							<p>An all new billing approach that would end those long unending queues. An product identification engine that would make the billing faster and more efficient. Also a safe transaction engine ensures that all transactions made are safe and secure.</p>
+							<div class="buttons1">
+							<a class="btn btn-1 btn-1b button4" href="demo/index.html" target="_blank" >EXPLORE</a>
+							<a class="btn btn-1 btn-1b button5" href="demo/index.html" target="_blank" >></a>
+							</div>
+						</div>
+						
+						<div class="col-md-6 feature1-grid">
+							<img src="images/mock/billing.png" align="right">
+						</div>
+						<div class="clearfix"></div>
+						</div>
+						<div class="feature-grid1 wow bounceIn animated">
+						<div class="col-md-6 feature1-grid">
+							<img src="images/mock/tobuy.png">
+						</div>
+						<div class="col-md-6 feature13-grid">
+							<h3><span>FAVOURITES &</span> TO BUY LIST</h3>
+							<p>A smart favourites mechanism that suggests products based on your preferences and also allows you to choose what preferences you want to share with the retailer. Now forget about forgetting to add something to your itinerary with the all new to buy list option. Update your list any-time any-place. </p>
+							<div class="buttons1">
+							<a class="btn btn-1 btn-1d button6" href="demo/index.html" target="_blank" >Learn more</a>
+							<a class="btn btn-1 btn-1d button7" href="demo/index.html"target="_blank" >></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						</div>	
+						
+						<div class="feature-grid2 wow bounceIn animated">
+						<div class="col-md-6 feature12-grid">
+							<h3><span>ISSUE REPORTING </span> TOOL</h3>
+							<p>With the all new and improved reporting system of the OnStore you will be able to report issues on the move.
+The issues reported are tracked centrally in a github portal and all the statistics of the reports are tracked in
+an offline excel. The system is smart enough to trigger github even if the issue is reported over Twitter.
+Found An Issue – Report It!. It really does help..</p>
+							<div class="buttons1">
+							<a class="btn btn-1 btn-1b button4" href="demo/index.html" target="_blank" >EXPLORE</a>
+							<a class="btn btn-1 btn-1b button5" href="demo/index.html" target="_blank" >></a>
+							</div>
+						</div>
+						<div class="col-md-6 feature1-grid">
+							<img src="images/mock/report.png" align="right">
+						</div>	
+						<div class="clearfix"></div>						
+						</div>
+						
+						<div class="feature-grid1 wow bounceIn animated">
+						<div class="col-md-6 feature1-grid">
+							<img src="images/mock/feedback.png">
+						</div>
+						<div class="col-md-6 feature13-grid">
+							<h3><span>FEEDBACK &</span> MANAGER</h3>
+							<p>With the feedback engine the retailer is able to track the preference of the consumer and the feedback
+regarding the products. Based on the feedback received the product range or prices can be altered. The
+The feedback are triggered as mails to a  central mail. All your Feedback is valuable.</p>
+							<div class="buttons1">
+							<a class="btn btn-1 btn-1d button6" href="demo/index.html" target="_blank" >Learn more</a>
+							<a class="btn btn-1 btn-1d button7" href="demo/index.html" target="_blank" >></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						</div>						
+					</div>
+					<br />
+					<div class="wow bounceInLeft animated">
+						<div class="clearfix"></div>
+							<iframe width="100%" height="600px" src="https://www.youtube.com/embed/5LArPZ7H-RI" frameborder="0"></iframe>
+						<div class="clearfix"></div>
+					</div>
+					<br />
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Features in Detail Ends Here -->
+
+<!-- Features Slider Starts Here -->
+
+<!-- Footer Part Starts here -->
+<div class="footer  wow bounceIn animated">	
+	<div class="container">
+		<h3>So ready to give it a try?</h3>
+		<div class="ap-stor">
+			<a href="https://play.google.com/store/apps/details?id=com.aryabhata.onstore"><img src="images/footer-app.png"></a>
+			<br />
+			<a class="btn btn-1 btn-1c button2" href="demo/index.html" target="_blank">EXPLORE</a>
+			<a class="btn btn-1 btn-1c button3" href="demo/index.html"target="_blank" >></a>
+		</div>
+			
+		<div class="foot-bot">
+			<div class="mail wow fadeInLeft animated" data-wow-delay="0.5s" style="visibility: visible; -webkit-animation: fadeInLeft 0.5s;">
+				<h3>MAIL US</h3>
+				<a href="mailto:example@email.com">info-aryabhata@gmail.com</a>
+			</div>
+			<div class="social wow fadeInRight animated" data-wow-delay="0.5s" style="visibility: visible; -webkit-animation: fadeInLeft 0.5s;">
+				<h3>Follow us</h3>
+				<ul class="social-list">
+					<li><a href="#" class="fb"></a></li>
+					<li><a href="https://twitter.com/aryabhatapphack" class="tw"></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="foot-nav">
+		<ul>
+			<li><p>Copyright &copy; 2015 - Team-Aryabhata  &nbsp;&nbsp;&nbsp;</p>
+			</li>
+			<li><a href="#about" class="scroll">About us</a></li>
+			<li><a href="#">Support us</a></li>
+			<li><a href="http://w3layouts.com/">Design</a></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+<!-- Footer Part Ends here -->
+</body>
+
+<!-- Mirrored from onstore-apphack.github.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Apr 2016 06:30:19 GMT -->
+</html>
+
+
+

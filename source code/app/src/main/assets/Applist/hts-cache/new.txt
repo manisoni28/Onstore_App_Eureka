@@ -1,0 +1,6 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+12:27:42	5310/5310	---M-Z	404	error ('Not%20Found')	text/html	etag:W/%22569c9f3d-247c%22	http://onstore-apphack.github.io/robots.txt		(from )
+12:27:43	1153/1153	---M-Z	200	added ('OK')	text/html	date:Sun,%2009%20Aug%202015%2000:30:05%20GMT	http://onstore-apphack.github.io/tobuy/	E:/New%20folder/Applist/onstore-apphack.github.io/tobuy/index.html	(from )
+12:27:44	3893/3893	---M-Z	200	added ('OK')	text/css	date:Sun,%2009%20Aug%202015%2000:30:05%20GMT	http://onstore-apphack.github.io/tobuy/css/style.css	E:/New%20folder/Applist/onstore-apphack.github.io/tobuy/css/style.css	(from http://onstore-apphack.github.io/tobuy/)
+12:27:49	97120/97120	---M-Z	200	added ('OK')	application/x-javascript	etag:%2256fd7834-83c8%22	http://codepen.io/assets/libs/fullpage/jquery.js	E:/New%20folder/Applist/codepen.io/assets/libs/fullpage/jquery.js	(from http://onstore-apphack.github.io/tobuy/)
+12:27:50	935/935	---M-Z	200	added ('OK')	application/javascript	date:Sun,%2009%20Aug%202015%2000:30:05%20GMT	http://onstore-apphack.github.io/tobuy/js/index.js	E:/New%20folder/Applist/onstore-apphack.github.io/tobuy/js/index.js	(from http://onstore-apphack.github.io/tobuy/)

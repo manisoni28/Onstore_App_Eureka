@@ -1,0 +1,22 @@
+HTTrack3.48-21+htsswf+htsjava launched on Mon, 04 Apr 2016 20:18:24 at http://onstore-apphack.github.io/store_search/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://onstore-apphack.github.io/store_search/ -O1 "C:\Users\akshat\Desktop\search" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-bg_flat_75_ffffff_40x100.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-bg_highlight-soft_75_cccccc_1x100.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-bg_glass_75_e6e6e6_1x400.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-bg_glass_75_dadada_1x400.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-bg_glass_55_fbf9ee_1x400.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-bg_glass_95_fef1ec_1x400.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-icons_888888_256x240.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-icons_454545_256x240.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-icons_2e83ff_256x240.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-icons_cd0a0a_256x240.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+20:19:02	Error: 	"Not Found" (404) at link codepen.io/assets/libs/fullpage/images/ui-bg_flat_0_aaaaaa_40x100.png (from codepen.io/assets/libs/fullpage/jquery-ui.css)
+
+HTTrack Website Copier/3.48-21 mirror complete in 38 seconds : 19 links scanned, 7 files written (371338 bytes overall) [127995 bytes received at 3368 bytes/sec], 371301 bytes transferred using HTTP compression in 17 files, ratio 30%, 3.8 requests per connection
+(11 errors, 0 warnings, 0 messages)

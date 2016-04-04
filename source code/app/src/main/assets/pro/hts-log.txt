@@ -1,0 +1,13 @@
+HTTrack3.48-21+htsswf+htsjava launched on Mon, 04 Apr 2016 20:22:38 at http://onstore-apphack.github.io/products_card/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://onstore-apphack.github.io/products_card/ -O1 "C:\Users\akshat\Desktop\pro" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:24:14	Warning: 	file not stored in cache due to bogus state (broken size, expected 1174914 got 280194): www.horsingaroundinla.com/wp-content/uploads/2013/06/1CBias4.jpg
+20:24:25	Warning: 	Retry after error -4 (Incorrect length (280194 Bytes, 1174914 expected)) at link www.horsingaroundinla.com/wp-content/uploads/2013/06/1CBias4.jpg (from onstore-apphack.github.io/products_card/)
+
+HTTrack Website Copier/3.48-21 mirror complete in 3 minutes 25 seconds : 13 links scanned, 11 files written (1768521 bytes overall) [1693611 bytes received at 8261 bytes/sec], 134311 bytes transferred using HTTP compression in 6 files, ratio 35%, 1.1 requests per connection
+(No errors, 2 warnings, 0 messages)
